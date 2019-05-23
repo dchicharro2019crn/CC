@@ -1,0 +1,192 @@
+.especial{
+    background: #ff8c66;
+    text-align: center; color: #fff;
+
+}
+.programas__titulo{
+    font-size: 30px;
+      padding: 25px;
+}
+
+.especial__img{
+   width: 100%;
+}
+.informacion{
+    margin-top: -6px;
+    background: #fff;
+    color: #000;
+}
+.especial__titulo{
+    font-size: 25px;
+    padding: 5px;
+}
+.especial__txt{
+   padding: 25px;
+    text-align: justify;
+}
+.button{
+    padding: 15px;
+    margin: 15px;
+    font-size: 20px;
+  background: #21aedb;
+    border: 0;
+     cursor: pointer;
+     color: white;
+    font-weight: bold;
+      border-radius: 10px;
+}
+.button:hover {
+          box-shadow: 0 0px 15px 3px rgba(98, 199, 231, 0.9);
+}
+.especial__columna1,.especial__columna2,.especial__columna3{
+ margin: 15px;
+}
+.especial .contenedor{
+     display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+
+.contenedor .especial__columna1 img{
+
+}
+@media(min-width:480px){
+       .banner__descripcion {
+       top: 32%;
+        width: 80%;
+        padding: 8px;
+}
+ .banner__descripcion p{
+        display: block;
+        font-size: 17px;
+}
+    .slider__txt2 {
+    display: block;
+    bottom: 3px;
+    font-size: 17px;
+  }
+
+
+    .destino__img{
+        width: 400px;
+
+    }
+     .especial__columna1,.especial__columna2,.especial__columna3{
+        width: 90%;
+    }
+    .ofertas__columna h4{
+    font-size: 40px;
+}
+    .fondo__titulo{
+        font-size: 50px;
+    }
+    .fondo__txt{
+        font-size: 22px;
+    }
+}
+@media(min-width:768px){
+        #btn-prev,#btn-next{
+    }
+
+       .banner__descripcion {
+         top: 50%;
+}
+     .banner__descripcion h1 {
+        font-size: 42px;
+}
+    .banner__descripcion p {
+        font-size: 18px;
+}
+    .slider__txt2 {
+      font-size: 25px;
+        padding: 20px;
+}
+     .destino__columna{
+        width: 45%;
+}
+    .especial__columna1,.especial__columna2{
+        width: 43%;
+    }
+    .ofertas__columna{
+        width: 49.6%;
+       margin-left: 3px;
+    }
+    .fondo__img{
+        padding:0px 0px 0px 5px;
+   }
+     .fondo__titulo{
+        font-size: 90px;
+    }
+    .fondo__txt{
+        font-size: 35px;
+    }
+     .sociales {
+        width: auto;
+        padding: 20px;
+    }
+    footer .contenedor {
+        justify-content: space-between;
+    }
+    .copy{
+        padding: 30px;
+    }
+}
+@media(min-width:1024px){
+     .contenedor{
+        width: 1000px;
+    }
+    .nav {
+    position: static;
+    width: auto;
+  }
+  .menu {
+    display: flex;
+  }
+  .icon-menu {
+    display: none;
+  }
+	.menu__link{
+		border: none;
+	}
+      .banner__descripcion .contenedor{
+       width: 90%;
+    }
+    #btn-prev,#btn-next{
+    width: 60px;
+    height: 60px;
+    transform: translateY(-50%);
+   line-height: 50px;
+    font-size: 60px;
+    }
+    .banner__descripcion h1 {
+        font-size: 68px;
+    }
+    .banner__descripcion p {
+        font-size: 28px;
+}
+    .slider__txt2 {
+      font-size: 32px;
+        padding: 25px;
+  }
+    .destino__columna{
+        width: 25%;
+    }
+
+    .especial__columna1,.especial__columna2,.especial__columna3{
+    width: 30%;
+    }
+
+     .ofertas__columna{
+        width: 32%;
+    }
+      .fondo__img{
+    padding:0px 20px 0px 20px;
+}
+    .fondo__titulo{
+        font-size: 80px;
+    }
+    .fondo__txt{
+        font-size: 42px;
+    }
+}
